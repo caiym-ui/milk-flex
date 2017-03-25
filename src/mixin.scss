@@ -1,0 +1,28 @@
+/**
+* Mixin.scss
+*/
+
+// flex mixin
+@mixin box-flex($scale: 1) {
+  flex: $scale;
+}
+@mixin flex-direction($direction: row) {
+  flex-direction: $direction;
+}
+@mixin flex-wrap($wrap: nowrap) {
+  flex-wrap: $wrap;
+}
+@mixin flex-justify($justify: flex-start) {
+  justify-content: $justify;
+}
+@mixin box-align($align: center) {
+  align-items: $align;
+}
+@mixin box-align-content($alignCenter: stretch) {
+  align-content: $alignCenter;
+}
+
+// common mixin
+@mixin box-sizing($sizing: border-box) {
+  box-sizing: $sizing;
+}
