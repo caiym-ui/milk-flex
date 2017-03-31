@@ -4,7 +4,7 @@ Flexible 布局组件
 
 ## 效果图
 
-![image](https://cloud.githubusercontent.com/assets/11053605/24555367/7c3eb0b4-1663-11e7-8971-1ddbf19196fb.png)
+![image](https://cloud.githubusercontent.com/assets/11053605/24555860/305cec90-1665-11e7-8b58-779a9f89146e.png)
 
 ## 使用
 
