@@ -506,8 +506,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss", function() {
-			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss");
+		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss", function() {
+			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -532,8 +532,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
-			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
+		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
+			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});

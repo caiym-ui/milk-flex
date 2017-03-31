@@ -9,6 +9,10 @@ Flexible 布局组件
 ## 使用
 
 ```jsx
+import Flex from 'milk-flex';
+
+const { Item } = Flex;
+
 <h3 className="demo-list-title">列等分</h3>
 <div className="demo-list">
   <Flex className="demo-item">
