@@ -11,81 +11,81 @@ $prefixCls: 'milk-flexbox';
 .#{$prefixCls} {
   display: flex;
 
-  &#{&}-dir-row {
+  &#{&}__dir-row {
     @include flex-direction(row);
   }
-  &#{&}-dir-row-reverse {
+  &#{&}__dir-row-reverse {
     @include flex-direction(row-reverse);
   }
-  &#{&}-dir-column {
+  &#{&}__dir-column {
     @include flex-direction(column);
   }
-  &#{&}-dir-column-reverse {
+  &#{&}__dir-column-reverse {
     @include flex-direction(column-reverse);
   }
 
-  &#{&}-nowrap {
+  &#{&}__nowrap {
     @include flex-wrap(nowrap);
   }
-  &#{&}-wrap {
+  &#{&}__wrap {
     @include flex-wrap(wrap);
   }
-  &#{&}-wrap-reverse {
+  &#{&}__wrap-reverse {
     @include flex-wrap(wrap-reverse);
   }
 
-  &#{&}-justify-start {
+  &#{&}__justify-start {
     @include flex-justify(flex-start);
   }
-  &#{&}-justify-end {
+  &#{&}__justify-end {
     @include flex-justify(flex-end);
   }
-  &#{&}-justify-center {
+  &#{&}__justify-center {
     @include flex-justify(center);
   }
-  &#{&}-justify-between {
+  &#{&}__justify-between {
     @include flex-justify(space-between);
   }
-  &#{&}-justify-around {
+  &#{&}__justify-around {
     @include flex-justify(space-around);
   }
 
-  &#{&}-align-top {
+  &#{&}__align-top {
     @include box-align(flex-start);
   }
-  &#{&}-align-bottom {
+  &#{&}__align-bottom {
     @include box-align(flex-end);
   }
-  &#{&}-align-middle {
+  &#{&}__align-middle {
     @include box-align(center);
   }
-  &#{&}-align-stretch {
+  &#{&}__align-stretch {
     @include box-align(stretch);
   }
-  &#{&}-align-baseline {
+  &#{&}__align-baseline {
     @include box-align(baseline);
   }
 
-  &#{&}-align-center-start {
+  &#{&}__align-center-start {
     @include box-align-content(flex-start);
   }
-  &#{&}-align-center-end {
+  &#{&}__align-center-end {
     @include box-align-content(flex-end);
   }
-  &#{&}-align-center-center {
+  &#{&}__align-center-center {
     @include box-align-content(center);
   }
-  &#{&}-align-center-stretch {
+  &#{&}__align-center-stretch {
     @include box-align-content(stretch);
   }
-  &#{&}-align-center-between {
+  &#{&}__align-center-between {
     @include box-align-content(space-between);
   }
-  &#{&}-align-center-around {
+  &#{&}__align-center-around {
     @include box-align-content(space-around);
   }
 
-  .#{$prefixCls}-item {
+  .#{$prefixCls}__item {
     @include box-sizing;
     @include box-flex;
     margin-left: 20px;

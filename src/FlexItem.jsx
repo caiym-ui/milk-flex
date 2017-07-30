@@ -15,7 +15,7 @@ class FlexItem extends Component {
   render() {
     const { prefixCls, className, children } = this.props;
     const wrapCls = classnames(
-      `${prefixCls}-item`,
+      `${prefixCls}__item`,
       className,
     );
 

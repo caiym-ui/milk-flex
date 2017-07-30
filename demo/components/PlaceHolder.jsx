@@ -8,7 +8,7 @@ class PlaceHolder extends Component {
 
   render() {
     const classNames = classnames(
-      'demo-placeholder-box',
+      'demo__placeholder__box',
       this.props.className,
     );
     return (

@@ -486,8 +486,7 @@ _reactDom2.default.render(_react2.default.createElement(_Demo2.default, null), d
                                                                                                                  * Flex of milk-component
                                                                                                                  * @author caiyongmin
                                                                                                                  *
-                                                                                                                 * Copyright 2017-2019, Milk Team.
-                                                                                                                 * All rights reserved.
+                                                                                                                 * Copyright 2017-2019, All rights reserved.
                                                                                                                  */
 
 /***/ }),
@@ -506,8 +505,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss", function() {
-			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss");
+		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss", function() {
+			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -532,8 +531,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
-			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
+		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
+			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -551,7 +550,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, Milk Team.\n * All rights reserved.\n */\nbody {\n  background-color: #f5f5f9;\n  font-family: PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial;\n  font-size: 0.28rem; }\n\n.section-demo {\n  padding: 0 0.25rem; }\n\n.demo-title {\n  margin-top: 0.2rem;\n  font-size: 0.32rem;\n  font-weight: 700; }\n\n.demo-description {\n  margin-top: 0.15rem;\n  font-size: 0.26rem;\n  color: #3b3b3b; }\n\n.demo-placeholder-box {\n  width: 100%;\n  height: 0.6rem;\n  background-color: #ebebef;\n  color: #bbb;\n  line-height: 0.6rem;\n  text-align: center; }\n  .demo-placeholder-box.box-quarter {\n    width: 1.56rem;\n    margin: 0 0 0.2rem 0.2rem; }\n    .demo-placeholder-box.box-quarter:nth-child(4n+1) {\n      margin-left: 0; }\n  .demo-placeholder-box.box-height-short {\n    height: 0.45rem;\n    line-height: 0.45rem; }\n\n.demo-list {\n  list-style-type: none;\n  margin: 0;\n  padding-left: 0; }\n\n.demo-list-title {\n  padding: 0.3rem 0 0.18rem;\n  margin: 0;\n  font-size: 0.28rem;\n  font-weight: 400;\n  color: #888; }\n\n.demo-item {\n  margin-bottom: 0.2rem; }\n", ""]);
+exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\nbody {\n  font-family: PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial;\n  font-size: 0.28rem; }\n\n.section-demo {\n  padding: 0 0.25rem; }\n\n.demo__title {\n  margin-top: 0.2rem;\n  font-size: 0.32rem;\n  font-weight: 700; }\n\n.demo__description {\n  margin-top: 0.15rem;\n  font-size: 0.26rem;\n  color: #3b3b3b; }\n\n.demo__placeholder__box {\n  width: 100%;\n  height: 0.6rem;\n  background-color: #ebebef;\n  color: #bbb;\n  line-height: 0.6rem;\n  text-align: center; }\n  .demo__placeholder__box.box__quarter {\n    width: 1.56rem;\n    margin: 0 0 0.2rem 0.2rem; }\n    .demo__placeholder__box.box__quarter:nth-child(4n+1) {\n      margin-left: 0; }\n  .demo__placeholder__box.box__height-short {\n    height: 0.45rem;\n    line-height: 0.45rem; }\n\n.demo__list {\n  list-style-type: none;\n  margin: 0;\n  padding-left: 0; }\n\n.demo__list_title {\n  padding: 0.3rem 0 0.18rem;\n  margin: 0;\n  font-size: 0.28rem;\n  font-weight: lighter;\n  color: #888; }\n\n.demo__item {\n  margin-bottom: 0.2rem; }\n", ""]);
 
 // exports
 
@@ -565,7 +564,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, Milk Team.\n * All rights reserved.\n */\n/**\n* Mixin.scss\n*/\n.milk-flexbox {\n  display: flex; }\n  .milk-flexbox.milk-flexbox-dir-row {\n    flex-direction: row; }\n  .milk-flexbox.milk-flexbox-dir-row-reverse {\n    flex-direction: row-reverse; }\n  .milk-flexbox.milk-flexbox-dir-column {\n    flex-direction: column; }\n  .milk-flexbox.milk-flexbox-dir-column-reverse {\n    flex-direction: column-reverse; }\n  .milk-flexbox.milk-flexbox-nowrap {\n    flex-wrap: nowrap; }\n  .milk-flexbox.milk-flexbox-wrap {\n    flex-wrap: wrap; }\n  .milk-flexbox.milk-flexbox-wrap-reverse {\n    flex-wrap: wrap-reverse; }\n  .milk-flexbox.milk-flexbox-justify-start {\n    justify-content: flex-start; }\n  .milk-flexbox.milk-flexbox-justify-end {\n    justify-content: flex-end; }\n  .milk-flexbox.milk-flexbox-justify-center {\n    justify-content: center; }\n  .milk-flexbox.milk-flexbox-justify-between {\n    justify-content: space-between; }\n  .milk-flexbox.milk-flexbox-justify-around {\n    justify-content: space-around; }\n  .milk-flexbox.milk-flexbox-align-top {\n    align-items: flex-start; }\n  .milk-flexbox.milk-flexbox-align-bottom {\n    align-items: flex-end; }\n  .milk-flexbox.milk-flexbox-align-middle {\n    align-items: center; }\n  .milk-flexbox.milk-flexbox-align-stretch {\n    align-items: stretch; }\n  .milk-flexbox.milk-flexbox-align-baseline {\n    align-items: baseline; }\n  .milk-flexbox.milk-flexbox-align-center-start {\n    align-content: flex-start; }\n  .milk-flexbox.milk-flexbox-align-center-end {\n    align-content: flex-end; }\n  .milk-flexbox.milk-flexbox-align-center-center {\n    align-content: center; }\n  .milk-flexbox.milk-flexbox-align-center-stretch {\n    align-content: stretch; }\n  .milk-flexbox.milk-flexbox-align-center-between {\n    align-content: space-between; }\n  .milk-flexbox.milk-flexbox-align-center-around {\n    align-content: space-around; }\n  .milk-flexbox .milk-flexbox-item {\n    box-sizing: border-box;\n    flex: 1;\n    margin-left: 0.2rem;\n    min-width: 0.2rem; }\n    .milk-flexbox .milk-flexbox-item:first-child {\n      margin-left: 0; }\n", ""]);
+exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\n/**\n* Mixin.scss\n*/\n.milk-flexbox {\n  display: flex; }\n  .milk-flexbox.milk-flexbox__dir-row {\n    flex-direction: row; }\n  .milk-flexbox.milk-flexbox__dir-row-reverse {\n    flex-direction: row-reverse; }\n  .milk-flexbox.milk-flexbox__dir-column {\n    flex-direction: column; }\n  .milk-flexbox.milk-flexbox__dir-column-reverse {\n    flex-direction: column-reverse; }\n  .milk-flexbox.milk-flexbox__nowrap {\n    flex-wrap: nowrap; }\n  .milk-flexbox.milk-flexbox__wrap {\n    flex-wrap: wrap; }\n  .milk-flexbox.milk-flexbox__wrap-reverse {\n    flex-wrap: wrap-reverse; }\n  .milk-flexbox.milk-flexbox__justify-start {\n    justify-content: flex-start; }\n  .milk-flexbox.milk-flexbox__justify-end {\n    justify-content: flex-end; }\n  .milk-flexbox.milk-flexbox__justify-center {\n    justify-content: center; }\n  .milk-flexbox.milk-flexbox__justify-between {\n    justify-content: space-between; }\n  .milk-flexbox.milk-flexbox__justify-around {\n    justify-content: space-around; }\n  .milk-flexbox.milk-flexbox__align-top {\n    align-items: flex-start; }\n  .milk-flexbox.milk-flexbox__align-bottom {\n    align-items: flex-end; }\n  .milk-flexbox.milk-flexbox__align-middle {\n    align-items: center; }\n  .milk-flexbox.milk-flexbox__align-stretch {\n    align-items: stretch; }\n  .milk-flexbox.milk-flexbox__align-baseline {\n    align-items: baseline; }\n  .milk-flexbox.milk-flexbox__align-center-start {\n    align-content: flex-start; }\n  .milk-flexbox.milk-flexbox__align-center-end {\n    align-content: flex-end; }\n  .milk-flexbox.milk-flexbox__align-center-center {\n    align-content: center; }\n  .milk-flexbox.milk-flexbox__align-center-stretch {\n    align-content: stretch; }\n  .milk-flexbox.milk-flexbox__align-center-between {\n    align-content: space-between; }\n  .milk-flexbox.milk-flexbox__align-center-around {\n    align-content: space-around; }\n  .milk-flexbox .milk-flexbox__item {\n    box-sizing: border-box;\n    flex: 1;\n    margin-left: 0.2rem;\n    min-width: 0.2rem; }\n    .milk-flexbox .milk-flexbox__item:first-child {\n      margin-left: 0; }\n", ""]);
 
 // exports
 
@@ -2653,8 +2652,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * Flex of milk-component
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * @author caiyongmin
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, Milk Team.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * All rights reserved.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, All rights reserved.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */
 
 var Item = _src2.default.Item;
@@ -2676,28 +2674,28 @@ var Demo = function (_Component) {
         { className: 'section-demo' },
         _react2.default.createElement(
           'h2',
-          { className: 'demo-title' },
-          'Milk-Flex'
+          { className: 'demo__title' },
+          'Milk UI'
         ),
         _react2.default.createElement(
           'p',
-          { className: 'demo-description' },
-          '\u7B80\u5355\u5FEB\u901F\u642D\u5EFA\u9875\u9762\u5E03\u5C40\u3002'
+          { className: 'demo__description' },
+          'Demo Page \uD83D\uDE00.'
         ),
         _react2.default.createElement(
           'div',
-          { className: 'demo-list-wrap' },
+          { className: 'demo__list__wrap' },
           _react2.default.createElement(
             'h3',
-            { className: 'demo-list-title' },
+            { className: 'demo__list__title' },
             '\u5217\u7B49\u5206'
           ),
           _react2.default.createElement(
             'div',
-            { className: 'demo-list' },
+            { className: 'demo__list' },
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item' },
+              { className: 'demo__item' },
               _react2.default.createElement(
                 Item,
                 null,
@@ -2711,7 +2709,7 @@ var Demo = function (_Component) {
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item' },
+              { className: 'demo__item' },
               _react2.default.createElement(
                 Item,
                 null,
@@ -2730,7 +2728,7 @@ var Demo = function (_Component) {
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item' },
+              { className: 'demo__item' },
               _react2.default.createElement(
                 Item,
                 null,
@@ -2755,74 +2753,74 @@ var Demo = function (_Component) {
           ),
           _react2.default.createElement(
             'h3',
-            { className: 'demo-list-title' },
+            { className: 'demo__list__title' },
             '\u6BCF\u884C\u56FA\u5B9A\u5217'
           ),
           _react2.default.createElement(
             'div',
-            { className: 'demo-list' },
+            { className: 'demo__list' },
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', wrap: 'wrap' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', wrap: 'wrap' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             )
           ),
           _react2.default.createElement(
             'h3',
-            { className: 'demo-list-title' },
+            { className: 'demo__list__title' },
             '\u8F74\u5BF9\u9F50'
           ),
           _react2.default.createElement(
             'div',
-            { className: 'demo-list' },
+            { className: 'demo__list' },
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', justify: 'center' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', justify: 'center' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', justify: 'end' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', justify: 'end' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', justify: 'between' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', justify: 'between' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', align: 'top' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter box-height-short' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', align: 'top' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter box__height-short' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', align: 'middle' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter box-height-short' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', align: 'middle' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter box__height-short' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             ),
             _react2.default.createElement(
               _src2.default,
-              { className: 'demo-item', align: 'bottom' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter box-height-short' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box-quarter' })
+              { className: 'demo__item', align: 'bottom' },
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter box__height-short' }),
+              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
             )
           )
         )
@@ -2876,7 +2874,7 @@ var PlaceHolder = function (_Component) {
   _createClass(PlaceHolder, [{
     key: 'render',
     value: function render() {
-      var classNames = (0, _classnames2.default)('demo-placeholder-box', this.props.className);
+      var classNames = (0, _classnames2.default)('demo__placeholder__box', this.props.className);
       return _react2.default.createElement(
         'div',
         { className: classNames },
@@ -2928,8 +2926,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * Flex of milk-component
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * @author caiyongmin
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, Milk Team.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * All rights reserved.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, All rights reserved.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */
 
 var Flex = function (_Component) {
@@ -2955,7 +2952,7 @@ var Flex = function (_Component) {
           align = _props.align,
           alignCenter = _props.alignCenter;
 
-      return (0, _classnames3.default)(prefixCls, (_classnames = {}, _defineProperty(_classnames, prefixCls + '-dir-row', direction === 'row'), _defineProperty(_classnames, prefixCls + '-dir-row-reverse', direction === 'row-reverse'), _defineProperty(_classnames, prefixCls + '-dir-column', direction === 'column'), _defineProperty(_classnames, prefixCls + '-dir-column-reverse', direction === 'column-reverse'), _defineProperty(_classnames, prefixCls + '-nowrap', wrap === 'nowrap'), _defineProperty(_classnames, prefixCls + '-wrap', wrap === 'wrap'), _defineProperty(_classnames, prefixCls + '-wrap-reverse', wrap === 'wrap-reverse'), _defineProperty(_classnames, prefixCls + '-justify-start', justify === 'start'), _defineProperty(_classnames, prefixCls + '-justify-end', justify === 'end'), _defineProperty(_classnames, prefixCls + '-justify-center', justify === 'center'), _defineProperty(_classnames, prefixCls + '-justify-between', justify === 'between'), _defineProperty(_classnames, prefixCls + '-justify-around', justify === 'around'), _defineProperty(_classnames, prefixCls + '-align-top', align === 'top' || align === 'start'), _defineProperty(_classnames, prefixCls + '-align-middle', align === 'middle' || align === 'center'), _defineProperty(_classnames, prefixCls + '-align-bottom', align === 'bottom' || align === 'end'), _defineProperty(_classnames, prefixCls + '-align-baseline', align === 'baseline'), _defineProperty(_classnames, prefixCls + '-align-stretch', align === 'stretch'), _defineProperty(_classnames, prefixCls + '-align-center-start', alignCenter === 'start'), _defineProperty(_classnames, prefixCls + '-align-center-end', alignCenter === 'end'), _defineProperty(_classnames, prefixCls + '-align-center-center', alignCenter === 'center'), _defineProperty(_classnames, prefixCls + '-align-center-between', alignCenter === 'between'), _defineProperty(_classnames, prefixCls + '-align-center-around', alignCenter === 'around'), _defineProperty(_classnames, prefixCls + '-align-center-stretch', alignCenter === 'stretch'), _classnames), className);
+      return (0, _classnames3.default)(prefixCls, (_classnames = {}, _defineProperty(_classnames, prefixCls + '__dir-row', direction === 'row'), _defineProperty(_classnames, prefixCls + '__dir-row-reverse', direction === 'row-reverse'), _defineProperty(_classnames, prefixCls + '__dir-column', direction === 'column'), _defineProperty(_classnames, prefixCls + '__dir-column-reverse', direction === 'column-reverse'), _defineProperty(_classnames, prefixCls + '__nowrap', wrap === 'nowrap'), _defineProperty(_classnames, prefixCls + '__wrap', wrap === 'wrap'), _defineProperty(_classnames, prefixCls + '__wrap-reverse', wrap === 'wrap-reverse'), _defineProperty(_classnames, prefixCls + '__justify-start', justify === 'start'), _defineProperty(_classnames, prefixCls + '__justify-end', justify === 'end'), _defineProperty(_classnames, prefixCls + '__justify-center', justify === 'center'), _defineProperty(_classnames, prefixCls + '__justify-between', justify === 'between'), _defineProperty(_classnames, prefixCls + '__justify-around', justify === 'around'), _defineProperty(_classnames, prefixCls + '__align-top', align === 'top' || align === 'start'), _defineProperty(_classnames, prefixCls + '__align-middle', align === 'middle' || align === 'center'), _defineProperty(_classnames, prefixCls + '__align-bottom', align === 'bottom' || align === 'end'), _defineProperty(_classnames, prefixCls + '__align-baseline', align === 'baseline'), _defineProperty(_classnames, prefixCls + '__align-stretch', align === 'stretch'), _defineProperty(_classnames, prefixCls + '__align-center-start', alignCenter === 'start'), _defineProperty(_classnames, prefixCls + '__align-center-end', alignCenter === 'end'), _defineProperty(_classnames, prefixCls + '__align-center-center', alignCenter === 'center'), _defineProperty(_classnames, prefixCls + '__align-center-between', alignCenter === 'between'), _defineProperty(_classnames, prefixCls + '__align-center-around', alignCenter === 'around'), _defineProperty(_classnames, prefixCls + '__align-center-stretch', alignCenter === 'stretch'), _classnames), className);
     }
   }, {
     key: 'render',
@@ -3036,7 +3033,7 @@ var FlexItem = function (_Component) {
           className = _props.className,
           children = _props.children;
 
-      var wrapCls = (0, _classnames2.default)(prefixCls + '-item', className);
+      var wrapCls = (0, _classnames2.default)(prefixCls + '__item', className);
 
       return _react2.default.createElement(
         'div',
@@ -3084,8 +3081,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Flex of milk-component
  * @author caiyongmin
  *
- * Copyright 2017-2019, Milk Team.
- * All rights reserved.
+ * Copyright 2017-2019, All rights reserved.
  */
 
 _Flex2.default.Item = _FlexItem2.default;

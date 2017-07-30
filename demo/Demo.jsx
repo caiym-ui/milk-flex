@@ -18,71 +18,58 @@ class Demo extends Component {
   render() {
     return (
       <section className="section-demo">
-        <h2 className="demo-title">Milk-Flex</h2>
-        <p className="demo-description">简单快速搭建页面布局。</p>
-        <div className="demo-list-wrap">
-          <h3 className="demo-list-title">列等分</h3>
-          <div className="demo-list">
-            <Flex className="demo-item">
-              <Item><PlaceHolder /></Item>
+        <h2 className="demo__title">Milk UI</h2>
+        <p className="demo__description">Demo Page 😀.</p>
+        <div className="demo__list__wrap">
+          <h3 className="demo__list__title">列等分</h3>
+          <div className="demo__list">
+            <Flex className="demo__item">
+              <Item><PlaceHolder /></Item><Item><PlaceHolder /></Item>
+            </Flex>
+            <Flex className="demo__item">
+              <Item><PlaceHolder /></Item><Item><PlaceHolder /></Item>
               <Item><PlaceHolder /></Item>
             </Flex>
-            <Flex className="demo-item">
-              <Item><PlaceHolder /></Item>
-              <Item><PlaceHolder /></Item>
-              <Item><PlaceHolder /></Item>
-            </Flex>
-            <Flex className="demo-item">
-              <Item><PlaceHolder /></Item>
-              <Item><PlaceHolder /></Item>
-              <Item><PlaceHolder /></Item>
-              <Item><PlaceHolder /></Item>
+            <Flex className="demo__item">
+              <Item><PlaceHolder /></Item><Item><PlaceHolder /></Item>
+              <Item><PlaceHolder /></Item><Item><PlaceHolder /></Item>
             </Flex>
           </div>
-          <h3 className="demo-list-title">每行固定列</h3>
-          <div className="demo-list">
-            <Flex className="demo-item" wrap={'wrap'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
+          <h3 className="demo__list__title">每行固定列</h3>
+          <div className="demo__list">
+            <Flex className="demo__item" wrap={'wrap'}>
+              <PlaceHolder className="box__quarter" /><PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" /><PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" /><PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" /><PlaceHolder className="box__quarter" />
             </Flex>
           </div>
-          <h3 className="demo-list-title">轴对齐</h3>
-          <div className="demo-list">
-            <Flex className="demo-item" justify={'center'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
+          <h3 className="demo__list__title">轴对齐</h3>
+          <div className="demo__list">
+            <Flex className="demo__item" justify={'center'}>
+              <PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" />
             </Flex>
-            <Flex className="demo-item" justify={'end'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
+            <Flex className="demo__item" justify={'end'}>
+              <PlaceHolder className="box__quarter" /><PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" />
             </Flex>
-            <Flex className="demo-item" justify={'between'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter" />
+            <Flex className="demo__item" justify={'between'}>
+              <PlaceHolder className="box__quarter" /><PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter" />
             </Flex>
-            <Flex className="demo-item" align={'top'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter box-height-short" />
-              <PlaceHolder className="box-quarter" />
+            <Flex className="demo__item" align={'top'}>
+              <PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter box__height-short" /><PlaceHolder className="box__quarter" />
             </Flex>
-            <Flex className="demo-item" align={'middle'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter box-height-short" />
-              <PlaceHolder className="box-quarter" />
+            <Flex className="demo__item" align={'middle'}>
+              <PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter box__height-short" /><PlaceHolder className="box__quarter" />
             </Flex>
-            <Flex className="demo-item" align={'bottom'}>
-              <PlaceHolder className="box-quarter" />
-              <PlaceHolder className="box-quarter box-height-short" />
-              <PlaceHolder className="box-quarter" />
+            <Flex className="demo__item" align={'bottom'}>
+              <PlaceHolder className="box__quarter" />
+              <PlaceHolder className="box__quarter box__height-short" /><PlaceHolder className="box__quarter" />
             </Flex>
           </div>
         </div>
