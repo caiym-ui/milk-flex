@@ -1,12 +1,12 @@
 # milk-flex
 
-Flexible 布局组件
+> Flexible 布局组件
 
-## 效果图
+## Overview
 
-![image](https://cloud.githubusercontent.com/assets/11053605/24556070/bf8c51ee-1665-11e7-81cc-2c86a0510ff0.png)
+![image](https://user-images.githubusercontent.com/11053605/28751010-4b347f00-752f-11e7-9844-3084086cfb69.png)
 
-## 使用
+## Example
 
 ```jsx
 import Flex from 'milk-flex';
@@ -49,23 +49,22 @@ const { Item } = Flex;
 </div>
 ```
 
-## 参数
+## Properties
 
-| Properties | Type | Description | Default |
+| Property | Type | Description | Default |
 | -- | -- | -- | -- |
 | className | String | 自定义的 class 类名 | '' |
 
-
-## 开发
-
-### install
+## Develop
 
 ```bash
-cnpm i milk-dev -g    # 组件开发工具
+cnpm i milk-dev -g    # dev tool
+
 cnpm install
+
 npm start
 ```
 
-## 链接
+## Links
 
-- [Issues](https://github.com/caiym-ui/milk-carousel/issues)
+- [Issues](https://github.com/caiym-ui/milkui-flex/issues)

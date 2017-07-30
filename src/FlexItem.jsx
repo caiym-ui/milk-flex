@@ -1,3 +1,10 @@
+/**
+ * Flex of milk-component
+ * @author caiyongmin
+ *
+ * Copyright 2017-2019, All rights reserved.
+ */
+
 import React, { Component, PropTypes } from 'react';
 import classnames from 'classnames';
 
