@@ -1,4 +1,4 @@
-# milk-flex
+# milkui-flex
 
 > Flexible 布局组件
 
@@ -9,7 +9,7 @@
 ## Example
 
 ```jsx
-import Flex from 'milk-flex';
+import Flex from 'milkui-flex';
 
 const { Item } = Flex;
 

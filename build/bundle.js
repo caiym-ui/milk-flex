@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -60,20 +61,14 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/assets/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 20);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
-
-module.exports = React;
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -128,7 +123,45 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = React;
+
+/***/ }),
 /* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _Flex = __webpack_require__(12);
+
+var _Flex2 = _interopRequireDefault(_Flex);
+
+var _FlexItem = __webpack_require__(13);
+
+var _FlexItem2 = _interopRequireDefault(_FlexItem);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * Flex of milk-component
+ * @author caiyongmin
+ *
+ * Copyright 2017-2019, All rights reserved.
+ */
+
+_Flex2.default.Item = _FlexItem2.default;
+
+exports.default = _Flex2.default;
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -380,7 +413,47 @@ function updateLink(linkElement, obj) {
 
 
 /***/ }),
-/* 3 */
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(5);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(3)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
+			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(6)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\n/**\n* Mixin.scss\n*/\n.milk-flexbox {\n  display: flex; }\n  .milk-flexbox.milk-flexbox__dir-row {\n    flex-direction: row; }\n  .milk-flexbox.milk-flexbox__dir-row-reverse {\n    flex-direction: row-reverse; }\n  .milk-flexbox.milk-flexbox__dir-column {\n    flex-direction: column; }\n  .milk-flexbox.milk-flexbox__dir-column-reverse {\n    flex-direction: column-reverse; }\n  .milk-flexbox.milk-flexbox__nowrap {\n    flex-wrap: nowrap; }\n  .milk-flexbox.milk-flexbox__wrap {\n    flex-wrap: wrap; }\n  .milk-flexbox.milk-flexbox__wrap-reverse {\n    flex-wrap: wrap-reverse; }\n  .milk-flexbox.milk-flexbox__justify-start {\n    justify-content: flex-start; }\n  .milk-flexbox.milk-flexbox__justify-end {\n    justify-content: flex-end; }\n  .milk-flexbox.milk-flexbox__justify-center {\n    justify-content: center; }\n  .milk-flexbox.milk-flexbox__justify-between {\n    justify-content: space-between; }\n  .milk-flexbox.milk-flexbox__justify-around {\n    justify-content: space-around; }\n  .milk-flexbox.milk-flexbox__align-top {\n    align-items: flex-start; }\n  .milk-flexbox.milk-flexbox__align-bottom {\n    align-items: flex-end; }\n  .milk-flexbox.milk-flexbox__align-middle {\n    align-items: center; }\n  .milk-flexbox.milk-flexbox__align-stretch {\n    align-items: stretch; }\n  .milk-flexbox.milk-flexbox__align-baseline {\n    align-items: baseline; }\n  .milk-flexbox.milk-flexbox__align-center-start {\n    align-content: flex-start; }\n  .milk-flexbox.milk-flexbox__align-center-end {\n    align-content: flex-end; }\n  .milk-flexbox.milk-flexbox__align-center-center {\n    align-content: center; }\n  .milk-flexbox.milk-flexbox__align-center-stretch {\n    align-content: stretch; }\n  .milk-flexbox.milk-flexbox__align-center-between {\n    align-content: space-between; }\n  .milk-flexbox.milk-flexbox__align-center-around {\n    align-content: space-around; }\n  .milk-flexbox .milk-flexbox__item {\n    box-sizing: border-box;\n    flex: 1;\n    margin-left: 20px;\n    min-width: 20px; }\n    .milk-flexbox .milk-flexbox__item:first-child {\n      margin-left: 0; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {/*
@@ -459,118 +532,10 @@ function toComment(sourceMap) {
   return '/*# ' + data + ' */';
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13).Buffer))
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(19);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _Demo = __webpack_require__(14);
-
-var _Demo2 = _interopRequireDefault(_Demo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-_reactDom2.default.render(_react2.default.createElement(_Demo2.default, null), document.querySelector('#app')); /**
-                                                                                                                 * Flex of milk-component
-                                                                                                                 * @author caiyongmin
-                                                                                                                 *
-                                                                                                                 * Copyright 2017-2019, All rights reserved.
-                                                                                                                 */
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(7);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__(2)(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss", function() {
-			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(8);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__(2)(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
-			var newContent = require("!!../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11).Buffer))
 
 /***/ }),
 /* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\nbody {\n  font-family: PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial;\n  font-size: 0.28rem; }\n\n.section-demo {\n  padding: 0 0.25rem; }\n\n.demo__title {\n  margin-top: 0.2rem;\n  font-size: 0.32rem;\n  font-weight: 700; }\n\n.demo__description {\n  margin-top: 0.15rem;\n  font-size: 0.26rem;\n  color: #3b3b3b; }\n\n.demo__placeholder__box {\n  width: 100%;\n  height: 0.6rem;\n  background-color: #ebebef;\n  color: #bbb;\n  line-height: 0.6rem;\n  text-align: center; }\n  .demo__placeholder__box.box__quarter {\n    width: 1.56rem;\n    margin: 0 0 0.2rem 0.2rem; }\n    .demo__placeholder__box.box__quarter:nth-child(4n+1) {\n      margin-left: 0; }\n  .demo__placeholder__box.box__height-short {\n    height: 0.45rem;\n    line-height: 0.45rem; }\n\n.demo__list {\n  list-style-type: none;\n  margin: 0;\n  padding-left: 0; }\n\n.demo__list_title {\n  padding: 0.3rem 0 0.18rem;\n  margin: 0;\n  font-size: 0.28rem;\n  font-weight: lighter;\n  color: #888; }\n\n.demo__item {\n  margin-bottom: 0.2rem; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "/**\n * Flex of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\n/**\n* Mixin.scss\n*/\n.milk-flexbox {\n  display: flex; }\n  .milk-flexbox.milk-flexbox__dir-row {\n    flex-direction: row; }\n  .milk-flexbox.milk-flexbox__dir-row-reverse {\n    flex-direction: row-reverse; }\n  .milk-flexbox.milk-flexbox__dir-column {\n    flex-direction: column; }\n  .milk-flexbox.milk-flexbox__dir-column-reverse {\n    flex-direction: column-reverse; }\n  .milk-flexbox.milk-flexbox__nowrap {\n    flex-wrap: nowrap; }\n  .milk-flexbox.milk-flexbox__wrap {\n    flex-wrap: wrap; }\n  .milk-flexbox.milk-flexbox__wrap-reverse {\n    flex-wrap: wrap-reverse; }\n  .milk-flexbox.milk-flexbox__justify-start {\n    justify-content: flex-start; }\n  .milk-flexbox.milk-flexbox__justify-end {\n    justify-content: flex-end; }\n  .milk-flexbox.milk-flexbox__justify-center {\n    justify-content: center; }\n  .milk-flexbox.milk-flexbox__justify-between {\n    justify-content: space-between; }\n  .milk-flexbox.milk-flexbox__justify-around {\n    justify-content: space-around; }\n  .milk-flexbox.milk-flexbox__align-top {\n    align-items: flex-start; }\n  .milk-flexbox.milk-flexbox__align-bottom {\n    align-items: flex-end; }\n  .milk-flexbox.milk-flexbox__align-middle {\n    align-items: center; }\n  .milk-flexbox.milk-flexbox__align-stretch {\n    align-items: stretch; }\n  .milk-flexbox.milk-flexbox__align-baseline {\n    align-items: baseline; }\n  .milk-flexbox.milk-flexbox__align-center-start {\n    align-content: flex-start; }\n  .milk-flexbox.milk-flexbox__align-center-end {\n    align-content: flex-end; }\n  .milk-flexbox.milk-flexbox__align-center-center {\n    align-content: center; }\n  .milk-flexbox.milk-flexbox__align-center-stretch {\n    align-content: stretch; }\n  .milk-flexbox.milk-flexbox__align-center-between {\n    align-content: space-between; }\n  .milk-flexbox.milk-flexbox__align-center-around {\n    align-content: space-around; }\n  .milk-flexbox .milk-flexbox__item {\n    box-sizing: border-box;\n    flex: 1;\n    margin-left: 0.2rem;\n    min-width: 0.2rem; }\n    .milk-flexbox .milk-flexbox__item:first-child {\n      margin-left: 0; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 9 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -581,7 +546,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 10 */
+/* 8 */
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -671,7 +636,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 11 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -792,7 +757,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 12 */
+/* 10 */
 /***/ (function(module, exports) {
 
 var g;
@@ -819,7 +784,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 13 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -833,9 +798,9 @@ module.exports = g;
 
 
 
-var base64 = __webpack_require__(11)
-var ieee754 = __webpack_require__(10)
-var isArray = __webpack_require__(9)
+var base64 = __webpack_require__(9)
+var ieee754 = __webpack_require__(8)
+var isArray = __webpack_require__(7)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -2613,10 +2578,10 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
 
 /***/ }),
-/* 14 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2628,291 +2593,15 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _PlaceHolder = __webpack_require__(15);
-
-var _PlaceHolder2 = _interopRequireDefault(_PlaceHolder);
-
-var _src = __webpack_require__(18);
-
-var _src2 = _interopRequireDefault(_src);
-
-__webpack_require__(5);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Flex of milk-component
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @author caiyongmin
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, All rights reserved.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
-var Item = _src2.default.Item;
-
-var Demo = function (_Component) {
-  _inherits(Demo, _Component);
-
-  function Demo() {
-    _classCallCheck(this, Demo);
-
-    return _possibleConstructorReturn(this, (Demo.__proto__ || Object.getPrototypeOf(Demo)).apply(this, arguments));
-  }
-
-  _createClass(Demo, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'section',
-        { className: 'section-demo' },
-        _react2.default.createElement(
-          'h2',
-          { className: 'demo__title' },
-          'Milk UI'
-        ),
-        _react2.default.createElement(
-          'p',
-          { className: 'demo__description' },
-          'Demo Page \uD83D\uDE00.'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'demo__list__wrap' },
-          _react2.default.createElement(
-            'h3',
-            { className: 'demo__list__title' },
-            '\u5217\u7B49\u5206'
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'demo__list' },
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item' },
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              ),
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              )
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item' },
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              ),
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              ),
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              )
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item' },
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              ),
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              ),
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              ),
-              _react2.default.createElement(
-                Item,
-                null,
-                _react2.default.createElement(_PlaceHolder2.default, null)
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'h3',
-            { className: 'demo__list__title' },
-            '\u6BCF\u884C\u56FA\u5B9A\u5217'
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'demo__list' },
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', wrap: 'wrap' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            )
-          ),
-          _react2.default.createElement(
-            'h3',
-            { className: 'demo__list__title' },
-            '\u8F74\u5BF9\u9F50'
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'demo__list' },
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', justify: 'center' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', justify: 'end' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', justify: 'between' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', align: 'top' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter box__height-short' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', align: 'middle' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter box__height-short' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            ),
-            _react2.default.createElement(
-              _src2.default,
-              { className: 'demo__item', align: 'bottom' },
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter box__height-short' }),
-              _react2.default.createElement(_PlaceHolder2.default, { className: 'box__quarter' })
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Demo;
-}(_react.Component);
-
-exports.default = Demo;
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _classnames = __webpack_require__(1);
-
-var _classnames2 = _interopRequireDefault(_classnames);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PlaceHolder = function (_Component) {
-  _inherits(PlaceHolder, _Component);
-
-  function PlaceHolder() {
-    _classCallCheck(this, PlaceHolder);
-
-    return _possibleConstructorReturn(this, (PlaceHolder.__proto__ || Object.getPrototypeOf(PlaceHolder)).apply(this, arguments));
-  }
-
-  _createClass(PlaceHolder, [{
-    key: 'render',
-    value: function render() {
-      var classNames = (0, _classnames2.default)('demo__placeholder__box', this.props.className);
-      return _react2.default.createElement(
-        'div',
-        { className: classNames },
-        'Item'
-      );
-    }
-  }]);
-
-  return PlaceHolder;
-}(_react.Component);
-
-PlaceHolder.propTypes = {
-  className: _react.PropTypes.string
-};
-exports.default = PlaceHolder;
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _classnames2 = __webpack_require__(1);
+var _classnames2 = __webpack_require__(0);
 
 var _classnames3 = _interopRequireDefault(_classnames2);
 
-__webpack_require__(6);
+__webpack_require__(4);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2988,7 +2677,7 @@ Flex.defaultProps = {
 exports.default = Flex;
 
 /***/ }),
-/* 17 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3000,11 +2689,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _classnames = __webpack_require__(1);
+var _classnames = __webpack_require__(0);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -3014,7 +2703,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Flex of milk-component
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @author caiyongmin
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                *
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, All rights reserved.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
 
 var FlexItem = function (_Component) {
   _inherits(FlexItem, _Component);
@@ -3057,48 +2751,10 @@ FlexItem.defaultProps = {
 exports.default = FlexItem;
 
 /***/ }),
-/* 18 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _Flex = __webpack_require__(16);
-
-var _Flex2 = _interopRequireDefault(_Flex);
-
-var _FlexItem = __webpack_require__(17);
-
-var _FlexItem2 = _interopRequireDefault(_FlexItem);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * Flex of milk-component
- * @author caiyongmin
- *
- * Copyright 2017-2019, All rights reserved.
- */
-
-_Flex2.default.Item = _FlexItem2.default;
-
-exports.default = _Flex2.default;
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports) {
-
-module.exports = ReactDOM;
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(4);
+module.exports = __webpack_require__(2);
 
 
 /***/ })
