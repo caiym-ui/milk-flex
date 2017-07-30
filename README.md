@@ -67,4 +67,4 @@ npm start
 
 ## Links
 
-- [Issues](https://github.com/caiym-ui/milkui-flex/issues)
+- [Issues](https://github.com/milk-ui/milkui-flex/issues)
